@@ -1,0 +1,5 @@
+[lint]
+extend-select = ["E501", "W505"]
+
+[format]
+skip-magic-trailing-comma = true

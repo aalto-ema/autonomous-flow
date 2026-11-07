@@ -1,0 +1,17 @@
+#environment.yml
+
+name: autonomous_flow
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - ipykernel
+  - pyserial
+  - pip
+  - pip:
+      - -e .[dev]

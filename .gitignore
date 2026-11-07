@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+.ruff_cache/
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local secrets/configuration
+.env
+.env.*
+!.env.example
+
+# Device manuals / local reference documents
+docs/vendor/*.pdf
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups
+backup/
+
+# Runtime logs
+logs/
+
+# Measurements / data
+measurements/
+data/
+
+# Agents
+AGENTS.md
+# Engine state and generated simulation data
+simulation/
+engine-endpoint.json
+engine.lock
+commands.sqlite3*
+engine.log
+workspace-mode.json
